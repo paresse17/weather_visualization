@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>프로젝트 파일 다운로드</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .instructions {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-list li {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 5px;
+        }
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        .code-block {
+            background: #2d2d2d;
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 Interactive Weather Globe 프로젝트 파일</h1>
+        
+        <div class="instructions">
+            <h2>📁 파일 저장 방법</h2>
+            <ol>
+                <li><strong>폴더 생성:</strong> 바탕화면에 <code>weather-globe</code> 폴더를 만드세요</li>
+                <li><strong>하위 폴더 생성:</strong> 
+                    <ul>
+                        <li><code>weather-globe/css</code> 폴더</li>
+                        <li><code>weather-globe/js</code> 폴더</li>
+                    </ul>
+                </li>
+                <li><strong>각 파일 복사:</strong> 아래 각 섹션의 코드를 복사하여 해당 위치에 저장하세요</li>
+            </ol>
+        </div>
+
+        <h2>📄 필요한 파일들</h2>
+        <ul class="file-list">
+            <li>📄 <strong>index.html</strong> - 메인 HTML 파일 (루트 폴더에 저장)</li>
+            <li>🎨 <strong>css/style.css</strong> - 스타일시트 (css 폴더에 저장)</li>
+            <li>📜 <strong>js/main.js</strong> - 메인 JavaScript (js 폴더에 저장)</li>
+            <li>🌏 <strong>js/countries-data.js</strong> - 국가 데이터 (js 폴더에 저장)</li>
+            <li>📝 <strong>README.md</strong> - 프로젝트 설명 (루트 폴더에 저장)</li>
+        </ul>
+
+        <h2>🚀 GitHub Pages 배포 방법</h2>
+        <div class="instructions">
+            <ol>
+                <li><strong>GitHub 계정 생성:</strong> github.com에서 무료 계정 생성</li>
+                <li><strong>새 Repository 생성:</strong>
+                    <ul>
+                        <li>Repository 이름: <code>weather-globe</code> 또는 <code>3d-weather-visualization</code></li>
+                        <li>Public으로 설정</li>
+                        <li>README 파일 추가 체크</li>
+                    </ul>
+                </li>
+                <li><strong>파일 업로드:</strong>
+                    <ul>
+                        <li>"Upload files" 버튼 클릭</li>
+                        <li>모든 파일과 폴더를 드래그&드롭</li>
+                        <li>Commit 메시지: "Initial commit - Interactive Weather Globe"</li>
+                    </ul>
+                </li>
+                <li><strong>GitHub Pages 활성화:</strong>
+                    <ul>
+                        <li>Settings → Pages</li>
+                        <li>Source: Deploy from a branch</li>
+                        <li>Branch: main / root</li>
+                        <li>Save 클릭</li>
+                    </ul>
+                </li>
+                <li><strong>URL 확인:</strong> 
+                    <div class="code-block">
+                        https://[your-username].github.io/weather-globe
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+        <h2>💡 발표 팁</h2>
+        <div class="instructions">
+            <p><strong>개발 과정 설명:</strong></p>
+            <ul>
+                <li>"Globe.gl 공식 문서를 참고하여 3D 지구본을 구현했습니다"</li>
+                <li>"CSS 애니메이션으로 날씨별 효과를 만들었습니다"</li>
+                <li>"JavaScript로 사용자 인터랙션을 처리했습니다"</li>
+                <li>"GitHub를 통해 버전 관리를 했습니다"</li>
+            </ul>
+        </div>
+
+        <button onclick="alert('위의 지침을 따라 수동으로 파일을 생성해주세요. 각 파일의 코드는 이전 대화에서 확인할 수 있습니다.')">
+            📦 파일 생성 가이드 확인
+        </button>
+    </div>
+</body>
+</html>
